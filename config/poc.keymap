@@ -244,19 +244,19 @@
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
       bindings = <&kp CMMA>, <&kp QMARK>;
-      mods = <(MOD_LSHFT)>;
+      mods = <(MOD_LSFT)>;
     };
     shftdot: shift_dot {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
       bindings = <&kp DOT>, <&kp BANG>;
-      mods = <(MOD_LSHFT)>;
+      mods = <(MOD_LSFT)>;
     };
     shft1: shift_1 {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
       bindings = <&kp N1>, <&kp COMMA>;
-      mods = <(MOD_LSHFT)>;
+      mods = <(MOD_LSFT)>;
     };
 
     conditional_layers {
