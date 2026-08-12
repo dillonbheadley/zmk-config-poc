@@ -43,19 +43,14 @@ include:
     snippet: poc-left-as-peripheral
     artifact-name: poc_left_as_peripheral
 
-  - board: nice_nano_v2
-    shield: poc_right
-    snippet: poc-right-as-peripheral
-    artifact-name: poc_right_as_peripheral
-
 #  - board: nice_nano_v2
 #    shield: poc_dongle
 #    snippet: studio-rpc-usb-uart
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
 #    artifact-name: poc_dongle_with_studio
 
-#  - board: nice_nano_v2
-#    shield: poc_right
+  - board: nice_nano_v2
+    shield: poc_right
 
   - board: nice_nano_v2
     shield: settings_reset
