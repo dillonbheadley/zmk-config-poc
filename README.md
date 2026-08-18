@@ -6,7 +6,7 @@
 
 Download compiled firmware from the Actions tab. <https://zmk.dev/docs/user-setup#installing-the-firmware>
 
-Edit your keymap <https://zmk.dev/docs/keymaps>.
+Edit your keymap <https://nickcoutsos.github.io/keymap-editor/>, <https://zmk.dev/docs/keymaps>.
 User keymap is located at [`config/poc.keymap`](config/poc.keymap).
 
 -----
