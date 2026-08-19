@@ -311,8 +311,8 @@
             compatible = "zmk,conditional-layers";
 
             tri_layer {
-                if-layers = <NAV SYMB>;
-                then-layer = <FUNC>;
+                if-layers = <1 2>;
+                then-layer = <3>;
             };
         };
     };
