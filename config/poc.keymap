@@ -238,7 +238,7 @@
             timeout-ms = <50>;
             key-positions = <11 12 13>;
             bindings = <&bootloader>;
-            layers = <2>;
+            layers = <3>;
         };
 
         scrl_left {
