@@ -291,14 +291,6 @@
             mods = <(MOD_LSFT)>;
         };
 
-        shft1: shift_1 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N1>, <&kp COMMA>;
-
-            mods = <(MOD_LSFT)>;
-        };
-
         dollar_percent: dollar_percent {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
